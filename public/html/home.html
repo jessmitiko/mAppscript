@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <base target="_top">
+  <script>
+    <? var _url = getScriptUrl() ?>
+    <? var _ss = getSpreadsheetUrl() ?>
+  </script>
+  <style type="text/css">
+    @import url('https://cdn.jsdelivr.net/npm/bootswatch@5.2.1/dist/minty/bootstrap.min.css');
+  </style>
+</head>
+
+<body>
+  <div style="margin:auto;width:30%;padding:15% 10px;height:99%;text-align:center;">
+    <h2>✨ Bem-vindxs! ✨</h2>
+    <p>Nullam quis risus eget <a href="#">urna mollis ornare</a> vel eu leo. Cum sociis natoque penatibus et magnis dis
+      parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula.</p>
+
+    <div class="d-grid gap-2">
+      <a class="btn btn-lg btn-primary" type="button" href="<?= _url ?>/map">Mapa</a>
+      <a class="btn btn-lg btn-primary" type="button" href="<?= _ss ?>">Base de dados</a>
+      <a class="btn btn-lg btn-primary" type="button" href="">Formulário de cadastro</a>
+    </div>
+  </div>
+</body>
+
+</html>
